@@ -1,0 +1,20 @@
+[package]
+name = "elektron_reports"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "elektron_reports"
+
+# [profile.release]
+# # or "z"
+# opt-level = "s"
+# lto = "fat"
+# codegen-units = 1
+
+[dependencies]
+thiserror = "1.0.32"
+lazy_static = "1.4.0"
+regex = "1.6.0"
+itertools = "0.10.3"
+elektron_sexp = { path = "../elektron_sexp" }
