@@ -2,19 +2,13 @@
 name = "elektron_reports"
 version = "0.1.0"
 edition = "2021"
+description = "Various reports for elektron data."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/spielhuus/elektron_reports"
 
 [lib]
 name = "elektron_reports"
 
-# [profile.release]
-# # or "z"
-# opt-level = "s"
-# lto = "fat"
-# codegen-units = 1
-
 [dependencies]
-thiserror = "1.0.32"
-lazy_static = "1.4.0"
-regex = "1.6.0"
-itertools = "0.10.3"
-elektron_sexp = { path = "../elektron_sexp" }
+thiserror = "1.0.37"
+elektron_sexp = "0.1.0"
