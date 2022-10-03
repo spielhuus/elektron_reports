@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use elektron_sexp::{model::SchemaElement, schema::Schema};
+use elektron_sexp::{SchemaElement, Schema};
 use crate::error::Error;
 
 #[derive(Debug, Clone)]
@@ -86,7 +86,7 @@ pub fn bom(document: &Schema, group: bool) -> Result<Vec<BomItem>, Error> {
 #[cfg(test)]
 mod tests {
     use super::bom;
-    use elektron_sexp::schema::Schema;
+    use elektron_sexp::Schema;
 
     #[test]
     fn test_bom() {
