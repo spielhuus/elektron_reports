@@ -1,6 +1,6 @@
 [package]
 name = "elektron_reports"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 description = "Various reports for elektron data."
 license = "MIT OR Apache-2.0"
@@ -11,4 +11,4 @@ name = "elektron_reports"
 
 [dependencies]
 thiserror = "1.0.37"
-elektron_sexp = "0.1.2"
+elektron_sexp = "0.1.3"
