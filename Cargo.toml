@@ -1,6 +1,6 @@
 [package]
 name = "elektron_reports"
-version = "0.1.12"
+version = "0.1.13"
 edition = "2021"
 description = "Various reports for elektron data."
 license = "MIT OR Apache-2.0"
